@@ -313,7 +313,9 @@ $(function () {
 
     $(elm).fileuploader({
       theme: 'simple',
+      enableApi: true,
       limit: $(elm).data('limit'),
+      fileMaxSize: $(elm).data('fileMaxSize'),
       extensions: extensions,
       addMore: true,
       upload: upload,
