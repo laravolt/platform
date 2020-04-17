@@ -319,18 +319,18 @@ $(function () {
       extensions: extensions,
       addMore: true,
       upload: upload,
-      onRemove: function(item) {
-        if ($(elm).data('media-url')) {
-          $.post($(elm).data('media-url'), {
-            _token: $(elm).data('token'),
-            _action: 'delete',
-            file: item.file,
-            id: item.data.id
-          });
-        }
-
-        return true;
-      },
+      // onRemove: function(item) {
+      //   if ($(elm).data('media-url')) {
+      //     $.post($(elm).data('media-url'), {
+      //       _token: $(elm).data('token'),
+      //       _action: 'delete',
+      //       file: item.file,
+      //       id: item.data.id
+      //     });
+      //   }
+      //
+      //   return true;
+      // },
       changeInput: '<div class="fileuploader-input">' +
         '<div class="fileuploader-input-inner">' +
         '<div><span>${captions.browse}</span></div>' +
