@@ -315,7 +315,7 @@ $(function () {
       theme: 'simple',
       enableApi: true,
       limit: $(elm).data('limit'),
-      fileMaxSize: $(elm).data('fileMaxSize'),
+      fileMaxSize: $(elm).data('filemaxsize'),
       extensions: extensions,
       addMore: true,
       upload: upload,
