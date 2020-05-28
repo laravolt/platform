@@ -7,7 +7,7 @@ $(function () {
   $('.ui.dropdown:not(.tag)').dropdown({
     forceSelection: false,
     selectOnKeydown: false,
-    fullTextSearch: 'exact',
+    fullTextSearch: true,
   });
 
   $('.ui.dropdown.tag').each(function () {
@@ -20,6 +20,7 @@ $(function () {
     $(this).dropdown({
       forceSelection: false,
       allowAdditions: true,
+      fullTextSearch: true,
       keys: {
         delimiter: 13
       }
