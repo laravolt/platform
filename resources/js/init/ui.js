@@ -60,7 +60,7 @@ $(function () {
     parent.dropdown({
       forceSelection: false,
       selectOnKeydown: false,
-      fullTextSearch: 'exact',
+      fullTextSearch: true,
       onChange: function (value, text, $option) {
 
         jQuery.each(children, function (idx, child) {
