@@ -1,3 +1,5 @@
+> **Archived.** This repository is no longer maintained. Its functionality lives in [laravolt/laravolt](https://github.com/laravolt/laravolt) (Laravolt v7+, `composer require laravolt/laravolt`). Docs: https://laravolt.dev
+
 [![StyleCI](https://github.styleci.io/repos/195338100/shield?branch=master)](https://github.styleci.io/repos/195338100) [![Build Status](https://travis-ci.org/laravolt/platform.svg?branch=master)](https://travis-ci.org/laravolt/platform) [![Coverage Status](https://coveralls.io/repos/github/laravolt/platform/badge.svg?branch=master)](https://coveralls.io/github/laravolt/platform?branch=master)
 
 # Laravolt Platform
